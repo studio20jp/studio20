@@ -6,122 +6,303 @@
   <meta name="robots" content="noindex,nofollow">
   <title>studio20</title>
   <meta name="description" content="studio20 — 20歳から続く対話。">
+  <meta property="og:title" content="studio20">
+  <meta property="og:description" content="20歳から続く対話。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/hero.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="opening" aria-hidden="true">studio20</div>
+
   <header class="site-header">
     <a class="logo" href="#top">studio20</a>
-    <nav>
+    <nav aria-label="main navigation">
+      <a href="#thought">thought</a>
       <a href="#works">works</a>
-      <a href="#about">about</a>
-      <a href="#service">service</a>
+      <a href="#people">people</a>
       <a href="#contact">contact</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-image" aria-label="studio20 image"></div>
-      <div class="hero-copy">
+      <img class="hero__image" src="assets/images/hero.jpg" alt="studio20 main visual">
+      <div class="hero__copy">
         <p class="label">architecture / design / dialogue</p>
         <h1>20歳から続く対話。</h1>
-        <p>暮らしの手ざわりから、建築を考える。</p>
       </div>
+      <a class="scroll" href="#thought">scroll</a>
     </section>
 
-    <section class="intro reveal">
-      <p>
-        studio20は、建築について語り続けてきた二人による設計ユニットです。
-        時間に耐える心地よさと、日々の生活にある小さな豊かさを手がかりに、
-        住宅、店舗、改修、家具、まちの場所を考えます。
+    <section id="thought" class="thought section reveal">
+      <p class="label">thought</p>
+      <p class="lead">
+        建築は、特別なものではなく、日々の暮らしの延長にあるものだと考えています。
+        気持ちいい、あたたかい、落ち着く、風が通る。
+        そうした素朴な感覚を、構造、素材、寸法、光、使い方へと翻訳していきます。
+      </p>
+      <p class="lead small">
+        1000年前の人にも、1000年後の人にも伝わるような豊かさを目指して。
       </p>
     </section>
 
-    <section id="works" class="section">
+    <section id="works" class="section works">
       <div class="section-title reveal">
-        <span>works</span>
+        <p class="label">works</p>
         <h2>projects</h2>
       </div>
-
       <div class="works-grid">
-        <article class="work-card reveal">
-          <div class="work-image img-1"></div>
-          <div class="work-text">
-            <p>office / wood structure</p>
-            <h3>Tateishi Office</h3>
-          </div>
-        </article>
+        
+      <a class="work-card reveal" href="#kazeno-torimichi">
+        <figure>
+          <img src="assets/images/kazeno-torimichi-01.jpg" alt="風の通り道">
+        </figure>
+        <div class="work-card__text">
+          <p>apartment renovation / 2024</p>
+          <h3>風の通り道</h3>
+        </div>
+      </a>
+    
+      <a class="work-card reveal" href="#kamikatsu">
+        <figure>
+          <img src="assets/images/kamikatsu-01.jpg" alt="上勝の農泊施設">
+        </figure>
+        <div class="work-card__text">
+          <p>stay / local landscape / 2024</p>
+          <h3>上勝の農泊施設</h3>
+        </div>
+      </a>
+    
+      <a class="work-card reveal" href="#yamato-university">
+        <figure>
+          <img src="assets/images/yamato-university-01.jpg" alt="大和大学">
+        </figure>
+        <div class="work-card__text">
+          <p>university / 2022</p>
+          <h3>大和大学</h3>
+        </div>
+      </a>
+    
+      <a class="work-card reveal" href="#gardens-plus">
+        <figure>
+          <img src="assets/images/gardens-plus-01.jpg" alt="阪急ガーデンズプラス館">
+        </figure>
+        <div class="work-card__text">
+          <p>mixed-use / 2023</p>
+          <h3>阪急ガーデンズプラス館</h3>
+        </div>
+      </a>
+    
+      <a class="work-card reveal" href="#tokushima-hall">
+        <figure>
+          <img src="assets/images/tokushima-hall-01.jpg" alt="徳島コンサートホール">
+        </figure>
+        <div class="work-card__text">
+          <p>concert hall / 2022</p>
+          <h3>徳島コンサートホール</h3>
+        </div>
+      </a>
+    
+      <a class="work-card reveal" href="#nanao-school">
+        <figure>
+          <img src="assets/images/nanao-school-01.jpg" alt="七生特別支援学校">
+        </figure>
+        <div class="work-card__text">
+          <p>special needs school / 2016</p>
+          <h3>七生特別支援学校</h3>
+        </div>
+      </a>
+    
+      <a class="work-card reveal" href="#ritsurinso">
+        <figure>
+          <img src="assets/images/ritsurinso-01.jpg" alt="老人ホームのスケボー場">
+        </figure>
+        <div class="work-card__text">
+          <p>welfare / public space</p>
+          <h3>老人ホームのスケボー場</h3>
+        </div>
+      </a>
+    
+      <a class="work-card reveal" href="#itech-soma">
+        <figure>
+          <img src="assets/images/itech-soma-01.jpg" alt="アイ・テック相馬事務所棟">
+        </figure>
+        <div class="work-card__text">
+          <p>office</p>
+          <h3>アイ・テック相馬事務所棟</h3>
+        </div>
+      </a>
+    
+      </div>
+    </section>
 
-        <article class="work-card reveal">
-          <div class="work-image img-2"></div>
-          <div class="work-text">
-            <p>workplace / renovation</p>
-            <h3>Factory Office</h3>
-          </div>
-        </article>
+    
+    <section id="kazeno-torimichi" class="project section">
+      <div class="project-head reveal">
+        <p class="label">松井創斗建築設計事務所</p>
+        <h2>風の通り道</h2>
+        <p>既存の住まいに、光と風の抜けをつくる改修計画。</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item" data-full="assets/images/kazeno-torimichi-01.jpg"><img src="assets/images/kazeno-torimichi-01.jpg" alt="風の通り道 image"></button>
+<button class="gallery-item" data-full="assets/images/kazeno-torimichi-02.jpg"><img src="assets/images/kazeno-torimichi-02.jpg" alt="風の通り道 image"></button>
+<button class="gallery-item" data-full="assets/images/kazeno-torimichi-03.jpg"><img src="assets/images/kazeno-torimichi-03.jpg" alt="風の通り道 image"></button>
+<button class="gallery-item" data-full="assets/images/kazeno-torimichi-04.jpg"><img src="assets/images/kazeno-torimichi-04.jpg" alt="風の通り道 image"></button>
+<button class="gallery-item" data-full="assets/images/kazeno-torimichi-05.jpg"><img src="assets/images/kazeno-torimichi-05.jpg" alt="風の通り道 image"></button>
+      </div>
+    </section>
+    
+    <section id="kamikatsu" class="project section">
+      <div class="project-head reveal">
+        <p class="label">松井創斗建築設計事務所</p>
+        <h2>上勝の農泊施設</h2>
+        <p>山の風景と地域の営みを受け止める、小さな滞在の場所。</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item" data-full="assets/images/kamikatsu-01.jpg"><img src="assets/images/kamikatsu-01.jpg" alt="上勝の農泊施設 image"></button>
+<button class="gallery-item" data-full="assets/images/kamikatsu-02.jpg"><img src="assets/images/kamikatsu-02.jpg" alt="上勝の農泊施設 image"></button>
+<button class="gallery-item" data-full="assets/images/kamikatsu-03.jpg"><img src="assets/images/kamikatsu-03.jpg" alt="上勝の農泊施設 image"></button>
+<button class="gallery-item" data-full="assets/images/kamikatsu-04.jpg"><img src="assets/images/kamikatsu-04.jpg" alt="上勝の農泊施設 image"></button>
+<button class="gallery-item" data-full="assets/images/kamikatsu-05.jpg"><img src="assets/images/kamikatsu-05.jpg" alt="上勝の農泊施設 image"></button>
+      </div>
+    </section>
+    
+    <section id="yamato-university" class="project section">
+      <div class="project-head reveal">
+        <p class="label">松田平田設計時代 担当案件</p>
+        <h2>大和大学</h2>
+        <p>学びの風景を立体的につなぐキャンパス計画。</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item" data-full="assets/images/yamato-university-01.jpg"><img src="assets/images/yamato-university-01.jpg" alt="大和大学 image"></button>
+<button class="gallery-item" data-full="assets/images/yamato-university-02.jpg"><img src="assets/images/yamato-university-02.jpg" alt="大和大学 image"></button>
+<button class="gallery-item" data-full="assets/images/yamato-university-03.jpg"><img src="assets/images/yamato-university-03.jpg" alt="大和大学 image"></button>
+<button class="gallery-item" data-full="assets/images/yamato-university-04.jpg"><img src="assets/images/yamato-university-04.jpg" alt="大和大学 image"></button>
+<button class="gallery-item" data-full="assets/images/yamato-university-05.jpg"><img src="assets/images/yamato-university-05.jpg" alt="大和大学 image"></button>
+<button class="gallery-item" data-full="assets/images/yamato-university-06.jpg"><img src="assets/images/yamato-university-06.jpg" alt="大和大学 image"></button>
+      </div>
+    </section>
+    
+    <section id="gardens-plus" class="project section">
+      <div class="project-head reveal">
+        <p class="label">松田平田設計時代 担当案件</p>
+        <h2>阪急ガーデンズプラス館</h2>
+        <p>都市の交差点に面した、商業と住まいの複合建築。</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item" data-full="assets/images/gardens-plus-01.jpg"><img src="assets/images/gardens-plus-01.jpg" alt="阪急ガーデンズプラス館 image"></button>
+<button class="gallery-item" data-full="assets/images/gardens-plus-02.jpg"><img src="assets/images/gardens-plus-02.jpg" alt="阪急ガーデンズプラス館 image"></button>
+<button class="gallery-item" data-full="assets/images/gardens-plus-03.jpg"><img src="assets/images/gardens-plus-03.jpg" alt="阪急ガーデンズプラス館 image"></button>
+<button class="gallery-item" data-full="assets/images/gardens-plus-04.jpg"><img src="assets/images/gardens-plus-04.jpg" alt="阪急ガーデンズプラス館 image"></button>
+<button class="gallery-item" data-full="assets/images/gardens-plus-05.jpg"><img src="assets/images/gardens-plus-05.jpg" alt="阪急ガーデンズプラス館 image"></button>
+<button class="gallery-item" data-full="assets/images/gardens-plus-06.jpg"><img src="assets/images/gardens-plus-06.jpg" alt="阪急ガーデンズプラス館 image"></button>
+      </div>
+    </section>
+    
+    <section id="tokushima-hall" class="project section">
+      <div class="project-head reveal">
+        <p class="label">松田平田設計時代 担当案件</p>
+        <h2>徳島コンサートホール</h2>
+        <p>街の記憶と新しい公共性をつなぐ文化施設。</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item" data-full="assets/images/tokushima-hall-01.jpg"><img src="assets/images/tokushima-hall-01.jpg" alt="徳島コンサートホール image"></button>
+<button class="gallery-item" data-full="assets/images/tokushima-hall-02.jpg"><img src="assets/images/tokushima-hall-02.jpg" alt="徳島コンサートホール image"></button>
+      </div>
+    </section>
+    
+    <section id="nanao-school" class="project section">
+      <div class="project-head reveal">
+        <p class="label">松田平田設計時代 担当案件</p>
+        <h2>七生特別支援学校</h2>
+        <p>学びと生活を支える、穏やかな学校の場所。</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item" data-full="assets/images/nanao-school-01.jpg"><img src="assets/images/nanao-school-01.jpg" alt="七生特別支援学校 image"></button>
+<button class="gallery-item" data-full="assets/images/nanao-school-02.jpg"><img src="assets/images/nanao-school-02.jpg" alt="七生特別支援学校 image"></button>
+<button class="gallery-item" data-full="assets/images/nanao-school-03.jpg"><img src="assets/images/nanao-school-03.jpg" alt="七生特別支援学校 image"></button>
+<button class="gallery-item" data-full="assets/images/nanao-school-04.jpg"><img src="assets/images/nanao-school-04.jpg" alt="七生特別支援学校 image"></button>
+<button class="gallery-item" data-full="assets/images/nanao-school-05.jpg"><img src="assets/images/nanao-school-05.jpg" alt="七生特別支援学校 image"></button>
+      </div>
+    </section>
+    
+    <section id="ritsurinso" class="project section">
+      <div class="project-head reveal">
+        <p class="label">project</p>
+        <h2>老人ホームのスケボー場</h2>
+        <p>福祉施設の余白を、世代が交わる居場所へ変える計画。</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item" data-full="assets/images/ritsurinso-01.jpg"><img src="assets/images/ritsurinso-01.jpg" alt="老人ホームのスケボー場 image"></button>
+<button class="gallery-item" data-full="assets/images/ritsurinso-02.jpg"><img src="assets/images/ritsurinso-02.jpg" alt="老人ホームのスケボー場 image"></button>
+<button class="gallery-item" data-full="assets/images/ritsurinso-03.jpg"><img src="assets/images/ritsurinso-03.jpg" alt="老人ホームのスケボー場 image"></button>
+<button class="gallery-item" data-full="assets/images/ritsurinso-04.jpg"><img src="assets/images/ritsurinso-04.jpg" alt="老人ホームのスケボー場 image"></button>
+<button class="gallery-item" data-full="assets/images/ritsurinso-05.jpg"><img src="assets/images/ritsurinso-05.jpg" alt="老人ホームのスケボー場 image"></button>
+<button class="gallery-item" data-full="assets/images/ritsurinso-06.jpg"><img src="assets/images/ritsurinso-06.jpg" alt="老人ホームのスケボー場 image"></button>
+      </div>
+    </section>
+    
+    <section id="itech-soma" class="project section">
+      <div class="project-head reveal">
+        <p class="label">project</p>
+        <h2>アイ・テック相馬事務所棟</h2>
+        <p>働く場所の骨格を素直に見せる事務所計画。</p>
+      </div>
+      <div class="gallery reveal">
+        <button class="gallery-item" data-full="assets/images/itech-soma-01.jpg"><img src="assets/images/itech-soma-01.jpg" alt="アイ・テック相馬事務所棟 image"></button>
+      </div>
+    </section>
+    
 
-        <article class="work-card reveal">
-          <div class="work-image img-3"></div>
-          <div class="work-text">
-            <p>education / public</p>
-            <h3>University Project</h3>
-          </div>
+    <section id="people" class="people section">
+      <div class="section-title reveal">
+        <p class="label">people</p>
+        <h2>profile</h2>
+      </div>
+      <div class="people-grid reveal">
+        <article>
+          <h3>松井 創斗</h3>
+          <p class="en">Soto Matsui</p>
+          <dl>
+            <div><dt>1988</dt><dd>埼玉県生まれ</dd></div>
+            <div><dt>2013</dt><dd>日本大学大学院 理工学研究科 海洋建築工学専攻 修了</dd></div>
+            <div><dt>2014</dt><dd>松田平田設計 入社</dd></div>
+            <div><dt>2024</dt><dd>松井創斗建築設計事務所 開設</dd></div>
+          </dl>
         </article>
-
-        <article class="work-card reveal">
-          <div class="work-image img-4"></div>
-          <div class="work-text">
-            <p>competition / welfare</p>
-            <h3>Community Complex</h3>
-          </div>
+        <article>
+          <h3>杉田 陽平</h3>
+          <p class="en">Yohei Sugita</p>
+          <dl>
+            <div><dt>1988</dt><dd>愛知県生まれ</dd></div>
+            <div><dt>2013</dt><dd>日本大学大学院 理工学研究科 海洋建築工学専攻 修了</dd></div>
+            <div><dt>2014</dt><dd>竹中工務店 入社</dd></div>
+            <div><dt>2025</dt><dd>名古屋支店 主任</dd></div>
+          </dl>
         </article>
       </div>
     </section>
 
-    <section id="about" class="section split reveal">
-      <div>
-        <p class="label">about us</p>
-        <h2>建築を、会話から始める。</h2>
-      </div>
-      <div class="body-text">
-        <p>
-          建築は、特別なものではなく、生活の延長にあるものだと考えています。
-          気持ちいい、あたたかい、落ち着く、風が通る。
-          そうした素朴な感覚を、構造、素材、寸法、光、使い方へと翻訳していきます。
-        </p>
-        <p>
-          1000年前の人にも、1000年後の人にも伝わるような豊かさを目指して。
-        </p>
-      </div>
-    </section>
-
-    <section id="service" class="section service reveal">
-      <div class="section-title">
-        <span>service</span>
-        <h2>what we do</h2>
-      </div>
-      <ul class="service-list">
-        <li><span>01</span>住宅・店舗の設計</li>
-        <li><span>02</span>改修・リノベーション</li>
-        <li><span>03</span>家具・什器・小さな場所づくり</li>
-        <li><span>04</span>計画相談・設計協力</li>
-      </ul>
-    </section>
-
-    <section id="contact" class="section contact reveal">
+    <section id="contact" class="contact section reveal">
       <p class="label">contact</p>
       <h2>ご相談は、メールにて。</h2>
-      <p class="contact-note">紹介・名刺・QRコードからご覧いただいた方へ。</p>
-      <a class="mail" href="mailto:hello@studio20.example">hello@studio20.example</a>
+      <p>紹介・名刺・QRコードからご覧いただいた方へ。</p>
+      <a class="mail" href="mailto:sm@sotomatsui.com">sm@sotomatsui.com</a>
     </section>
   </main>
 
   <footer>
     <p>© studio20</p>
   </footer>
+
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="close">×</button>
+    <img src="" alt="">
+  </div>
 
   <script src="script.js"></script>
 </body>
