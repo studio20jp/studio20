@@ -1,13 +1,11 @@
-# studio20 website draft v0.5
+# studio20 website draft v0.6
 
-GitHub Pages にそのままアップロードできる静的サイトです。
+GitHub Pages 用の静的サイトです。ZIPを解凍し、リポジトリ直下へ中身をアップロードしてください。
 
-## 更新内容
-- 指示まとめ Ver0.5 のコンセプト・WORKS順・一文を反映
-- noindex / nofollow を追加
-- TOP、WORKS、PROFILE、CONTACT を構成
-- 天草PDFを assets/docs に格納
+- index.html
+- style.css
+- script.js
+- assets/
+- .nojekyll
 
-## GitHub Pages
-リポジトリ直下に `index.html`, `style.css`, `script.js`, `assets`, `works` を置いてください。
-Settings → Pages → Deploy from a branch → main / root で公開できます。
+robots noindex を設定済み。
