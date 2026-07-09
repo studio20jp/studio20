@@ -1,11 +1,13 @@
-# studio20
+# studio20 website draft v0.5
 
-studio20 website draft v0.3
+GitHub Pages にそのままアップロードできる静的サイトです。
 
-## TODO
-- トップ画の最終決定
-- 各作品文の微修正
-- 受賞歴の作品対応
-- 杉山洋太氏の経歴・写真追加
+## 更新内容
+- 指示まとめ Ver0.5 のコンセプト・WORKS順・一文を反映
+- noindex / nofollow を追加
+- TOP、WORKS、PROFILE、CONTACT を構成
+- 天草PDFを assets/docs に格納
 
-Contact: sm@sotomatsui.com
+## GitHub Pages
+リポジトリ直下に `index.html`, `style.css`, `script.js`, `assets`, `works` を置いてください。
+Settings → Pages → Deploy from a branch → main / root で公開できます。
