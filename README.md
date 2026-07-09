@@ -1,11 +1,3 @@
-# studio20 website draft v0.6
+# studio20 website
 
-GitHub Pages 用の静的サイトです。ZIPを解凍し、リポジトリ直下へ中身をアップロードしてください。
-
-- index.html
-- style.css
-- script.js
-- assets/
-- .nojekyll
-
-robots noindex を設定済み。
+GitHub Pages にそのままアップできる静的サイトです。
