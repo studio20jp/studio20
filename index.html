@@ -3,129 +3,287 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="noindex,nofollow">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="googlebot" content="noindex, nofollow, noarchive">
   <title>studio20</title>
-  <meta name="description" content="studio20 architecture portfolio">
+  <meta name="description" content="studio20 建築設計ユニット">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="site-header">
-  <a class="brand" href="#top" aria-label="studio20 home">studio20</a>
-  <nav class="nav" aria-label="main navigation">
-    <a href="#concept">CONCEPT</a><a href="#works">WORKS</a><a href="#about">ABOUT</a><a href="#profile">PROFILE</a><a href="#contact">CONTACT</a>
-  </nav>
-</header>
+  <header class="site-header" aria-label="サイトヘッダー">
+    <a class="site-name" href="#top">studio20</a>
+    <button class="nav-toggle" type="button" aria-label="メニューを開閉" aria-expanded="false">MENU</button>
+    <nav class="site-nav" aria-label="メインナビゲーション">
+      <a href="#concept">CONCEPT</a>
+      <a href="#works">WORKS</a>
+      <a href="#studio20">studio20</a>
+      <a href="#profile">PROFILE</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
 
-<main id="top">
-  <section class="hero">
-    <img src="assets/DSC_0644.JPG" alt="船橋キャンパスの滑走路" class="hero-img">
-    <div class="hero-copy">
-      <p>いつかここから飛び立ちたい</p>
-      <h1>studio20</h1>
-    </div>
-  </section>
-
-  <section id="concept" class="section concept reveal">
-    <p>建築は、新しく何かをつくることではなく、<br>その土地にある風景や、人の営みを丁寧に読み解くことから始まると考えています。</p>
-    <p>そこには、暮らしの積み重ねや、土地の記憶、受け継がれてきた物語があります。</p>
-    <p>私たちは、その場所らしさを大切にしながら、<br>これまでの物語を受け取り、<br>これからの物語へと繋いでいくことを目指します。</p>
-  </section>
-
-  <section id="works" class="section works">
-    <div class="section-title reveal"><span>WORKS</span></div>
-
-    <article class="work reveal" id="tateishi">
-      <div class="work-head"><p class="num">01</p><h2>立石工務店</h2><p>木の架構が、働く場所と暮らしの気配を包み込む。</p></div>
-      <div class="gallery">
-        <figure class="wide"><img src="assets/matsui/tateishi/LINE_ALBUM_250106-_250826_2.jpg" alt="立石工務店 正面模型"></figure>
-        <figure><img src="assets/matsui/tateishi/LINE_ALBUM_250106-_250826_3.jpg" alt="立石工務店 全景模型"></figure>
-        <figure><img src="assets/matsui/tateishi/LINE_ALBUM_250106-_250826_4.jpg" alt="立石工務店 内観模型"></figure>
+  <main>
+    <section id="top" class="hero">
+      <picture>
+        <source srcset="assets/images/top-runway-sp.jpg" media="(max-width: 767px)">
+        <img src="assets/images/top-runway.jpg" alt="船橋キャンパスの滑走路" class="hero-image">
+      </picture>
+      <div class="hero-copy">
+        <p class="hero-label">studio20</p>
+        <h1>景色を創る。</h1>
+        <p>その土地の豊かさを、かたちにする。</p>
       </div>
-    </article>
+      <a class="scroll-sign" href="#concept">SCROLL</a>
+    </section>
 
-    <article class="work reveal" id="tokushima">
-      <div class="work-head"><p class="num">02</p><h2>徳島コンサートホール</h2><p>コンサート以外の時間を設計する。</p><p class="credit">コンペ提案</p></div>
-      <div class="gallery">
-        <figure class="wide"><img src="assets/matsui/tokushima-hall/-.jpg" alt="徳島コンサートホール 夜景"></figure>
-        <figure><img src="assets/matsui/tokushima-hall/0708_-.png" alt="徳島コンサートホール 外観"></figure>
+    <section id="concept" class="section concept-section">
+      <div class="section-head">
+        <p class="section-label">CONCEPT</p>
       </div>
-    </article>
+      <div class="text-block concept-text">
+        <p>建築は、新しく何かをつくることではなく、<br>その土地にある風景や、人の営みを丁寧に読み解くことから始まると考えています。</p>
+        <p>そこには、暮らしの積み重ねや、土地の記憶、受け継がれてきた物語があります。</p>
+        <p>私たちは、その場所らしさを大切にしながら、<br>これまでの物語を受け取り、<br>これからの物語へと繋いでいくことを目指します。</p>
+      </div>
+    </section>
 
-    <article class="work reveal" id="jotanh">
-      <div class="work-head"><p class="num">03</p><h2>実践倫理宏正会 城端支部</h2><p>土地の気候と木の架構から、集う場所をつくる。</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/sugita/jotanh/messageImage_1783527171914_0.jpg" alt="実践倫理宏正会 城端支部"></figure><figure><img src="assets/sugita/jotanh/messageImage_1783527317814.jpg" alt="実践倫理宏正会 城端支部"></figure></div>
-    </article>
+    <section id="works" class="section works-section">
+      <div class="section-head">
+        <p class="section-label">WORKS</p>
+      </div>
 
-    <article class="work reveal" id="amakusa">
-      <div class="work-head"><p class="num">04</p><h2>天草のふくしを編む</h2><p>地域の暮らしを編み、次の世代へ物語をつなぐ。</p><p class="credit"><a href="assets/matsui/amakusa/-_amakusa-_250613.pdf">PDFを見る</a></p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/matsui/amakusa/-_2026-07-09_134748.png" alt="天草 アイソメ図"></figure></div>
-    </article>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">01</p>
+          <h2>立石工務店</h2>
+          <p>Office / House</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/tateishi-01.jpg" alt="立石工務店">
+          <img src="assets/images/works/tateishi-02.jpg" alt="立石工務店">
+          <img src="assets/images/works/tateishi-03.jpg" alt="立石工務店">
+        </div>
+      </article>
 
-    <article class="work reveal" id="kagome">
-      <div class="work-head"><p class="num">05</p><h2>カゴメビル</h2><p>木の手ざわりが、働く時間をやわらげる。</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/sugita/kagome/messageImage_1783526991408.jpg" alt="カゴメビル"></figure><figure><img src="assets/sugita/kagome/messageImage_1783527032965_0.jpg" alt="カゴメビル"></figure></div>
-    </article>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">02</p>
+          <h2>徳島コンサートホール</h2>
+          <p>Competition Proposal</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/tokushima-01.jpg" alt="徳島コンサートホール コンペ提案">
+          <img src="assets/images/works/tokushima-02.jpg" alt="徳島コンサートホール コンペ提案">
+          <img src="assets/images/works/tokushima-03.jpg" alt="徳島コンサートホール コンペ提案">
+        </div>
+      </article>
 
-    <article class="work reveal" id="kamikatsu">
-      <div class="work-head"><p class="num">06</p><h2>上勝の農泊施設</h2><p>椎茸小屋と廃材から、新しい風景をつくる。</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/matsui/kamikatsu/IMG_0255.jpg" alt="上勝の農泊施設"></figure><figure><img src="assets/matsui/kamikatsu/IMG_0256.jpg" alt="上勝の農泊施設"></figure><figure><img src="assets/matsui/kamikatsu/IMG_0258.jpg" alt="上勝の農泊施設"></figure><figure><img src="assets/matsui/kamikatsu/IMG_0259.jpg" alt="上勝の農泊施設"></figure><figure><img src="assets/matsui/kamikatsu/IMG_0261.jpg" alt="上勝の農泊施設"></figure></div>
-    </article>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">03</p>
+          <h2>実践倫理宏正会 城端支部</h2>
+          <p>Assembly Hall</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/johana-01.jpg" alt="実践倫理宏正会 城端支部">
+          <img src="assets/images/works/johana-02.jpg" alt="実践倫理宏正会 城端支部">
+          <img src="assets/images/works/johana-03.jpg" alt="実践倫理宏正会 城端支部">
+        </div>
+      </article>
 
-    <article class="work reveal" id="ritsurinso">
-      <div class="work-head"><p class="num">07</p><h2>特別養護老人ホーム 栗林荘</h2><p>世代を超えて人が交わる、新しい福祉施設の風景。</p><p class="credit">わくわくデザイン＋水津功先生と協働 ／ 外構設計担当</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/matsui/ritsurinso/special-nursing-home-ritsurinsou.jpg" alt="特別養護老人ホーム 栗林荘"></figure><figure><img src="assets/matsui/ritsurinso/ritsurinso_0593.jpg.webp" alt="特別養護老人ホーム 栗林荘"></figure><figure><img src="assets/matsui/ritsurinso/1767082124-ZjKeEGT283fadWDu1x7yhlpi.webp" alt="特別養護老人ホーム 栗林荘"></figure></div>
-    </article>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">04</p>
+          <h2>天草</h2>
+          <p>Welfare Complex Competition</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/amakusa-01.jpg" alt="天草">
+          <img src="assets/images/works/amakusa-02.jpg" alt="天草">
+          <img src="assets/images/works/amakusa-03.jpg" alt="天草">
+        </div>
+      </article>
 
-    <article class="work reveal" id="yamato">
-      <div class="work-head"><p class="num">08</p><h2>大和大学</h2><p>緑あふれる学びの風景をつくる。</p><p class="credit">理工学部棟・社会学部棟・情報学部棟・カフェ棟</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/matsui/yamato/A4638-008.jpg" alt="大和大学"></figure><figure><img src="assets/matsui/yamato/A4638-011.jpg" alt="大和大学"></figure><figure><img src="assets/matsui/yamato/A4638-029.jpg" alt="大和大学"></figure><figure><img src="assets/matsui/yamato/A4638-053.jpg" alt="大和大学"></figure><figure><img src="assets/matsui/yamato/DSC_2082.JPG" alt="大和大学"></figure></div>
-    </article>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">05</p>
+          <h2>カゴメビル</h2>
+          <p>Office</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/kagome-01.jpg" alt="カゴメビル">
+          <img src="assets/images/works/kagome-02.jpg" alt="カゴメビル">
+          <img src="assets/images/works/kagome-03.jpg" alt="カゴメビル">
+        </div>
+      </article>
 
-    <article class="work reveal" id="kaze">
-      <div class="work-head"><p class="num">09</p><h2>風の通り道</h2><p>光と風を整え、暮らしの余白をつくる。</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/matsui/kaze/DSC_3092plus.jpg" alt="風の通り道"></figure><figure><img src="assets/matsui/kaze/DSC_3189.JPG" alt="風の通り道"></figure><figure><img src="assets/matsui/kaze/DSC_6960.JPG" alt="風の通り道"></figure><figure><img src="assets/matsui/kaze/DSC_6970.JPG" alt="風の通り道"></figure><figure><img src="assets/matsui/kaze/DSC_7271.JPG" alt="風の通り道"></figure></div>
-    </article>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">06</p>
+          <h2>上勝の農泊施設</h2>
+          <p>Accommodation</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/kamikatsu-01.jpg" alt="上勝の農泊施設">
+          <img src="assets/images/works/kamikatsu-02.jpg" alt="上勝の農泊施設">
+          <img src="assets/images/works/kamikatsu-03.jpg" alt="上勝の農泊施設">
+        </div>
+      </article>
 
-    <article class="work reveal" id="nakamura">
-      <div class="work-head"><p class="num">10</p><h2>中村区役所等複合庁舎</h2><p>街に開かれた、日常のための公共建築。</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/sugita/nakamura/messageImage_1783527375078.jpg" alt="中村区役所等複合庁舎"></figure><figure><img src="assets/sugita/nakamura/messageImage_1783527419441.jpg" alt="中村区役所等複合庁舎"></figure><figure><img src="assets/sugita/nakamura/messageImage_1783527445620.jpg" alt="中村区役所等複合庁舎"></figure></div>
-    </article>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">07</p>
+          <h2>特別養護老人ホーム 栗林荘</h2>
+          <p>Welfare Facility</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/ritsurinso-01.jpg" alt="特別養護老人ホーム 栗林荘">
+          <img src="assets/images/works/ritsurinso-02.jpg" alt="特別養護老人ホーム 栗林荘">
+          <img src="assets/images/works/ritsurinso-03.jpg" alt="特別養護老人ホーム 栗林荘">
+        </div>
+      </article>
 
-    <article class="work reveal" id="hankyu">
-      <div class="work-head"><p class="num">11</p><h2>阪急ガーデンズ プラス館</h2><p>都市の賑わいを受け止める、立体的な回遊空間。</p><p class="credit">ATグループ</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/matsui/hankyu/04_-_-.JPG" alt="阪急ガーデンズ プラス館"></figure><figure><img src="assets/matsui/hankyu/12_-_-_-.JPG" alt="阪急ガーデンズ プラス館"></figure><figure><img src="assets/matsui/hankyu/60_-.JPG" alt="阪急ガーデンズ プラス館"></figure></div>
-    </article>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">08</p>
+          <h2>大和大学</h2>
+          <p>University / 担当範囲：基本設計・実施設計・設計監理補助</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/yamato-01.jpg" alt="大和大学">
+          <img src="assets/images/works/yamato-02.jpg" alt="大和大学">
+          <img src="assets/images/works/yamato-03.jpg" alt="大和大学">
+        </div>
+      </article>
 
-    <article class="work reveal" id="nanao">
-      <div class="work-head"><p class="num">12</p><h2>七生特別支援学校</h2><p>日々の学びを支える、やわらかな居場所をつくる。</p></div>
-      <div class="gallery"><figure class="wide"><img src="assets/matsui/nanao/000-_-_-.jpg" alt="七生特別支援学校"></figure><figure><img src="assets/matsui/nanao/003_-_-.jpg" alt="七生特別支援学校"></figure><figure><img src="assets/matsui/nanao/004_-_-.jpg" alt="七生特別支援学校"></figure><figure><img src="assets/matsui/nanao/008_-_-.jpg" alt="七生特別支援学校"></figure><figure><img src="assets/matsui/nanao/009_-_-.jpg" alt="七生特別支援学校"></figure></div>
-    </article>
-  </section>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">09</p>
+          <h2>風の通り道</h2>
+          <p>House</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/kaze-01.jpg" alt="風の通り道">
+          <img src="assets/images/works/kaze-02.jpg" alt="風の通り道">
+          <img src="assets/images/works/kaze-03.jpg" alt="風の通り道">
+        </div>
+      </article>
 
-  <section id="about" class="section about reveal">
-    <div class="section-title"><span>ABOUT studio20</span></div>
-    <p>studio20というユニット名は、20歳で初めて設計競技に挑んだことに由来しています。</p>
-    <p>トップページの写真は、その設計競技を提出した明け方に撮影した、船橋キャンパスの滑走路です。</p>
-    <blockquote>いつかここから飛び立ちたい。</blockquote>
-    <p>そんな想いを抱いてシャッターを切ったこの風景は、今も変わらず私たちstudio20の原点の景色です。</p>
-  </section>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">10</p>
+          <h2>中村区役所等複合庁舎</h2>
+          <p>Public Complex</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/nakamura-01.jpg" alt="中村区役所等複合庁舎">
+          <img src="assets/images/works/nakamura-02.jpg" alt="中村区役所等複合庁舎">
+          <img src="assets/images/works/nakamura-03.jpg" alt="中村区役所等複合庁舎">
+        </div>
+      </article>
 
-  <section id="profile" class="section profile reveal">
-    <div class="section-title"><span>PROFILE</span></div>
-    <div class="profile-grid">
-      <article class="person"><img src="assets/matsui/profile/DSC_9680.jpg" alt="松井 顔写真"><h2>松井 創斗</h2><p>1988年 埼玉県生まれ<br>日本大学理工学部建築学科 卒業<br>松田平田設計を経て独立</p><img class="award" src="assets/matui_-.png" alt="松井 受賞歴"></article>
-      <article class="person"><img class="mono" src="assets/sugita/profile/-_2026-07-09_113517.png" alt="杉田 顔写真"><h2>杉田 陽平</h2><p>1988年 千葉県生まれ<br>日本大学理工学部建築学科 卒業<br>竹中工務店 設計部</p><img class="award" src="assets/sugita-.png" alt="杉田 受賞歴"></article>
-    </div>
-    <p class="note">杉山洋太氏は後日追加予定</p>
-  </section>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">11</p>
+          <h2>阪急ガーデンズ プラス館</h2>
+          <p>Commercial Facility</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/hankyu-01.jpg" alt="阪急ガーデンズ プラス館">
+          <img src="assets/images/works/hankyu-02.jpg" alt="阪急ガーデンズ プラス館">
+          <img src="assets/images/works/hankyu-03.jpg" alt="阪急ガーデンズ プラス館">
+        </div>
+      </article>
 
-  <section id="contact" class="section contact reveal">
-    <div class="section-title"><span>CONTACT</span></div>
-    <a href="mailto:sm@sotomatsui.com">sm@sotomatsui.com</a>
-  </section>
-</main>
+      <article class="work-item">
+        <div class="work-meta">
+          <p class="work-number">12</p>
+          <h2>七生特別支援学校</h2>
+          <p>Special Needs School / ATグループ</p>
+        </div>
+        <div class="work-gallery reveal">
+          <img src="assets/images/works/nanao-01.jpg" alt="七生特別支援学校">
+          <img src="assets/images/works/nanao-02.jpg" alt="七生特別支援学校">
+          <img src="assets/images/works/nanao-03.jpg" alt="七生特別支援学校">
+        </div>
+      </article>
+    </section>
 
-<footer class="footer"><p>© studio20</p></footer>
-<script src="script.js"></script>
+    <section id="studio20" class="section studio-section">
+      <div class="section-head">
+        <p class="section-label">studio20</p>
+      </div>
+      <div class="text-block">
+        <p>studio20というユニット名は、20歳で初めて設計競技に挑んだことに由来しています。</p>
+        <p>トップページの写真は、その設計競技を提出を終えた明け方に撮影した、船橋キャンパスの滑走路です。</p>
+        <p>「いつかここから飛び立ちたい。」</p>
+        <p>そんな想いを抱いてシャッターを切ったこの風景は、今も変わらず私たちstudio20の原点の景色です。</p>
+      </div>
+    </section>
+
+    <section id="profile" class="section profile-section">
+      <div class="section-head">
+        <p class="section-label">PROFILE</p>
+      </div>
+      <div class="profile-grid">
+        <article class="profile-card reveal">
+          <img src="assets/images/profile-matsui.jpg" alt="松井創斗" class="profile-photo">
+          <div>
+            <h2>松井 創斗</h2>
+            <p class="profile-role">Architect</p>
+            <p>1988年生まれ。松田平田設計を経て、2024年に松井創斗建築設計事務所を設立。</p>
+            <h3>経歴</h3>
+            <ul>
+              <li>松田平田設計</li>
+              <li>松井創斗建築設計事務所</li>
+              <li>日本大学 非常勤講師</li>
+            </ul>
+            <h3>受賞歴</h3>
+            <ul>
+              <li>後日追加</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="profile-card reveal">
+          <img src="assets/images/profile-sugita.jpg" alt="杉田陽平" class="profile-photo mono">
+          <div>
+            <h2>杉田 陽平</h2>
+            <p class="profile-role">Architect</p>
+            <p>竹中工務店設計部にて建築設計に従事。</p>
+            <h3>経歴</h3>
+            <ul>
+              <li>竹中工務店 設計部</li>
+            </ul>
+            <h3>受賞歴</h3>
+            <ul>
+              <li>後日追加</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="profile-card profile-card-empty reveal">
+          <div>
+            <h2>杉山 洋太</h2>
+            <p class="profile-role">Coming Soon</p>
+            <p>後日追加予定。</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="section-head">
+        <p class="section-label">CONTACT</p>
+      </div>
+      <a class="contact-mail" href="mailto:sm@sotomatsui.com">sm@sotomatsui.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© studio20</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
